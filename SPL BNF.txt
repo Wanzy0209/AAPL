@@ -1,0 +1,46 @@
+Semi-structured description BNF:
+    <structured-prompt> ::= [priming] <structured-prompt-part> {structured-prompt-part}
+
+    <structured-prompt-part> ::= [identifier] [left-bracket] <structured-prompt-body> [right-bracket]
+
+    <structured-prompt-body> ::= {persona-part} {audience-part} {terminology-part} {context-control-part} {instruction-part}
+
+    <persona-part> ::= <@persona> [identifier] <left-bracket> <persona-prompt> <right-bracket>
+
+    <persona-prompt> ::= {rule-part} <nldesc>
+
+    <audience-part> ::= <@audience> [identifier] <left-bracket> <audience-prompt> <right-bracket>
+
+    <audience-prompt> ::= {rule-part} <nldesc>
+
+    <terminology-part> ::= <@terminology> [identifier] <left-bracket> <terminology-prompt> <right-bracket>
+
+    <terminology-prompt> ::= {rule-part} <desc>
+
+    <context-control-part> ::= <@context-control> [identifier] <left-bracket> <context-control-prompt> <right-bracket>
+
+    <context-control-prompt> ::= {rule-part} <desc>
+
+    <instruction-part> ::= <@instruction> [identifier] <left-bracket> <instruction-prompt> <right-bracket>
+
+    <instruction-prompt> ::= {rule-part} {command-part} {format-part} {example-part}
+
+    <rule-part> ::= <@rule> [@paradigm-name] [left-bracket] <rule-prompt> [right-bracket]
+
+    <rule-prompt> ::= [index] <desc>
+
+    <command-part> ::= <@command> [left-bracket] <command-prompt> [right-bracket]
+
+    <command-prompt> ::= [index] <desc>
+
+    <format-part> ::= <@format> [identifier] [left-bracket] {rule-part} <format-prompt> [right-bracket]
+
+    <format-prompt> ::= [index] <desc>
+
+    <example-part> ::= <@example> [left-bracket] <example-prompt> [right-bracket]
+
+    <example-prompt> ::= [example-context] [index] [@input] <desc> <separator> [@output] <desc>
+
+    <example-context> ::= <desc>
+
+    <desc> ::= <nldesc> | <code> | <equation>
