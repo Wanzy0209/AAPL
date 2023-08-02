@@ -1,6 +1,6 @@
 # From Alchemy to Chemistry in Human-AI Interaction: A Pattern-Oriented Language for Structured Prompting
 
-Sappar Community: 
+Sappar Community: []
 
 Demo video (Sappar Community)
 1. CFG_Generator: https://youtu.be/eibsKUIZEks
