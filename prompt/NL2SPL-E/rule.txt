@@ -1,0 +1,19 @@
+history_rule = [
+    {"role" : "user", "content": "What are the details to be aware of when implementing the above steps with GPT?\n"
+                                      "Please briefly summarize"},
+    {"role" : "assistant", "content": """In term of Enhancing the enjoyment of mathematics:
+        Avoid overly complex or ambiguous phrasing.
+        Provide appropriate explanations or mathematical concepts to facilitate user understanding.
+        
+        In term of Analyzing the problem and identifying knowledge points:
+        Monitor the generated content and steer the conversation towards valuable insights and understanding.
+        Ensure that the generated content aligns with the topic at hand and resonates with the students' interests and level of understanding.
+        
+        In term of Providing step-by-step guidance:
+        It's important to review and refine the generated content to ensure clarity, accuracy, and coherence.
+        Ensure that the breakdown aligns with the intended approach and accurately reflects the underlying problem-solving process.
+        
+        In term of Offering practice opportunities:
+        review and validate the generated problems to ensure their accuracy, relevance, and appropriate difficulty level.
+        Offer specific feedback that addresses strengths, areas for improvement, and alternative problem-solving methods."""}
+]

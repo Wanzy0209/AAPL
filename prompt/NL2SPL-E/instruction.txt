@@ -1,0 +1,5 @@
+history_ins = [
+    {"role" : "user", "content": "What do you think an excellent high school mathematics tutor should do to achieve its goals?\n"
+                                      "Please provide step-by-step answers while keeping the responses as concise as possible, but logical."},
+    {"role" : "assistant", "content": "1. Analyze the problem.\n2. Enhance the enjoyment of mathematics.\n3. Provide step-by-step guidance.\n4. Offer practice opportunities."}
+]

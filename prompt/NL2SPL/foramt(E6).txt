@@ -1,0 +1,5 @@
+history_format = [
+    {"role" : "user", "content": "What is the content and format of the input and output for the Answer Math Question ?\n"
+                                    "Please provide point-by-point answers while keeping the responses as concise as possible, but logical."},
+    {"role" : "assistant", "content": "Input: \nQuestion.\nOutput: \ndetailed answer ideas and answer process. "}
+]

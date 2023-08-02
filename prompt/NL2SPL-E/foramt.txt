@@ -1,0 +1,5 @@
+history_format = [
+    {"role" : "user", "content": "What is the content and format of the input and output for the step Analyzing the problem?\n"
+                                      "Please provide point-by-point answers while keeping the responses as concise as possible, but logical."},
+    {"role" : "assistant", "content": "Input: the problem statement itself.\nOutput: its understanding and identification of the key information and knowledge points within the problem statement. "}
+]

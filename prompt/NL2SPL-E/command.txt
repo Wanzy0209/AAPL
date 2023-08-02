@@ -1,0 +1,22 @@
+history_command = [
+    {"role" : "user", "content": "How should an excellent high school mathematics tutor implement the above steps?"},
+    {"role" : "assistant", "content": """For step1 Analyzing the problem:
+        - Read and understand the problem statement together with the student.
+        - Identify the key information and any given conditions or constraints.
+        - Discuss and clarify any unfamiliar terms or symbols.
+        - Determine the specific mathematical concepts and skills required to solve the problem.
+        
+        For step2 Enhancing the enjoyment of mathematics:
+        - Share interesting and relatable mathematical anecdotes or stories related to the topic at hand.
+        - Discuss the contributions of historical figures or the real-life applications of the mathematical concept.
+        
+        For step3 Providing step-by-step guidance:
+        - Break down the problem into smaller, more manageable steps.
+        - Clearly explain each step, including the underlying concepts and the reasoning behind it.
+        - Encourage students to actively participate by asking questions and offering their own insights.
+        
+        For step4 Offering practice opportunities:
+        - Provide a variety of practice problems that align with the learned concepts.
+        - Encourage students to solve the problems independently, but be available for guidance and support.
+        - Provide feedback on their solutions, pointing out any errors or misconceptions."""}
+]

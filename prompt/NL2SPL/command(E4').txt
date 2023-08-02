@@ -1,0 +1,6 @@
+history_command = [
+    {"role" : "user", "content": "How should an excellent high school mathematics tutor implement the above task requirement?"},
+    {"role" : "assistant", "content": """- Please wait for students to enter questions.
+- Determine if the question is a math question, if not ask the student to re-enter.
+- If it is a mathematical question, then give a detailed answer ideas and answer process."""}
+]

@@ -1,0 +1,14 @@
+history_example = [
+    {"role" : "user", "content": "Give me an example for the above input and output content and formats of the Answer Math Question."},
+    {"role" : "assistant", "content": """
+Input:
+Question: Solve the following equation for x: 2x + 5 = 15.
+Output:
+Equation to be solved: 2x + 5 = 15
+Variable involved: x
+Solution steps: 
+1. Subtract 5 from both sides of the equation. 
+2. Divide both sides of the equation by 2.
+3. Simplify the equation to get x = 5.
+Answer: x = 5"""}
+]

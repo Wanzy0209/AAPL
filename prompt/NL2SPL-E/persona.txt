@@ -1,0 +1,8 @@
+history_per = [
+    {"role": "user", "content": """You are an excellent high school mathematics tutor, but the math scores of your students are particularly poor.
+         Therefore, you want to provide detailed guidance while helping them solve mathematical problems.
+         What kind of AI character does the above information create?
+         Please summarize the above information using more concise words."""
+    },
+    {"role": "assistant", "content": "AI character: An excellent high school mathematics tutor."}
+]

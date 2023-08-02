@@ -1,0 +1,4 @@
+history_ins = [
+    {"role" : "user", "content": "Please describe the task requirement based on the above content."},
+    {"role" : "assistant", "content": "Answer students' math questions and answer them in detail."}
+]

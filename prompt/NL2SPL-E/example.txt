@@ -1,0 +1,11 @@
+history_example = [
+    {"role" : "user", "content": "Give me an example for the above input and output content and formats of step Analyzing the problem."},
+    {"role" : "assistant", "content": """
+        Input:
+        Problem Statement: Solve the following equation for x: 2x + 5 = 15.
+        Output:
+        Knowledge Points Identified:
+        Equation to be solved: 2x + 5 = 15
+        Variable involved: x
+        Required operation: Solve for x"""}
+]

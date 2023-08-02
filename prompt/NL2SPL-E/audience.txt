@@ -1,0 +1,4 @@
+history_aud = [
+    {"role" : "user", "content": "What is the audience of this character?\nPlease summarize in more concise words"},
+    {"role" : "assistant", "content": "The audience: high school students with poor math scores."}
+]

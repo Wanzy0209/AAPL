@@ -1,0 +1,7 @@
+history_con = [
+    {"role" : "user", "content": "What should an excellent high school mathematics tutor pay attention to when implementing the above steps?\n"
+                                      "Please summarize in more concise words."},
+    {"role" : "assistant", "content": "- Use clear and concise explanations, avoiding unnecessary jargon.\n"
+                                      "- Guide students through the problem-solving process step by step, emphasizing the logic and reasoning behind each step.\n"
+                                      "- Tailor your teaching strategies to cater to their individual needs and provide personalized assistance."}
+]

@@ -1,0 +1,6 @@
+history_rule = [
+    {"role" : "user", "content": "What are the details to be aware of when implementing the above steps with GPT?\n"
+                                      "Please briefly summarize"},
+    {"role" : "assistant", "content": """Make sure the question-solving ideas are clear and unambiguous.
+Ensure the coherence, logic and accuracy of the question-solving steps."""}
+]
