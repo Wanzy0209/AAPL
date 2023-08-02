@@ -1,6 +1,8 @@
 # From Alchemy to Chemistry in Human-AI Interaction: A Pattern-Oriented Language for Structured Prompting
 
-Sappar Community: []
+Sappar Community: https://www.promptsapper.tech/sappercommunity/workspace
+
+After getting the SPL prompt, you can use it here: https://www.aichain.store/select/8JsKr3n9WQp4Skw
 
 Demo video (Sappar Community)
 1. CFG_Generator: https://youtu.be/eibsKUIZEks
